@@ -18,5 +18,5 @@ Subsystem sftp internal-sftp
 ForceCommand internal-sftp
 ChrootDirectory %h
 
-# Enable this for more logs
-#LogLevel VERBOSE
+# Change for more logs: INFO,VERBOSE,DEBUG,DEBUG1,...
+LogLevel ERROR
